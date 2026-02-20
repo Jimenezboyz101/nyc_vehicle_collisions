@@ -1,5 +1,7 @@
 # NYC Traffic Collisions Dashboard
 
+AI was used in the debugging of this project. I did not use AI to write or complete any components where AI use is prohibited.
+
 [Link to Project](https://jimenezboyz101.github.io/nyc_vehicle_collisions/)
 
 ## Project Overview
