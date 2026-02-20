@@ -1,8 +1,6 @@
-// Assign your Mapbox access token
 mapboxgl.accessToken =
     'pk.eyJ1Ijoib3N3YWxkb2ppbWVuZXoiLCJhIjoiY21reGJqc3NkMDhxbTNqcHh4OGNlYm94OSJ9.OKsd-KUnhUT0HP-tWB8Yqg';
 
-// Initialize the map centered on NYC
 let map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/dark-v10',
@@ -11,13 +9,11 @@ let map = new mapboxgl.Map({
     center: [-74.0060, 40.7128]
 });
 
-// Chart and data variables
 let collisionChart = null,
     casualties = {},
     numCollisions = 0;
 
-// Casualty severity classes
-const grades = [0, 1, 2]; // 0, 1, 2+
+const grades = [0, 1, 2];
 const colors = ['#2DC4B2', '#F1C40F', '#E74C3C'];
 const radii = [4, 8, 14];
 
@@ -138,7 +134,7 @@ function calCollisions(currentCollisions, currentMapBounds) {
 }
 
 
-// Update sidebar count + chart
+// Update sidebar count and chart
 function updateSidebarAndChart() {
     numCollisions = casualties[0] + casualties[1] + casualties[2];
 
