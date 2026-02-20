@@ -1,3 +1,4 @@
+// Added my own mapbox token
 mapboxgl.accessToken =
     'pk.eyJ1Ijoib3N3YWxkb2ppbWVuZXoiLCJhIjoiY21reGJqc3NkMDhxbTNqcHh4OGNlYm94OSJ9.OKsd-KUnhUT0HP-tWB8Yqg';
 
